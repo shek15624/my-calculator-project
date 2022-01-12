@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+body{
+    background-image: url("./color3.jpg.crdownload"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding-top: 70px;
+}
+.calculator {
+ margin-top: 80px;
+ padding: 10px;
+ border-radius: 1em;
+ height: 380px;
+ width: 400px;
+ margin: auto;
+ border: 1px solid rgba(255, 255, 255, 0.4);
+ background-color: rgba(56, 13, 13, 0.1);
+ backdrop-filter: blur(0px);
+ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+ 
+}
+.display-box {
+ font-family: 'Orbitron', sans-serif;
+ background-color: #dcdbe1;
+ border: 1px solid rgba(255, 255, 255, 0.4);
+ color: black;
+ background-color: rgba(255, 255, 255, 0);
+ backdrop-filter: blur(0px);
+ border-radius: 5px;
+ width: 100%;
+ height: 65%;
+}
+.button {
+    background-color: rgba(255, 255, 255, 0);
+ font-family: 'Orbitron', sans-serif;
+ backdrop-filter: blur(0px);
+ color: white;
+ border: solid rgba(255, 255, 255, 0.1) 0.5px;
+ width: 100%;
+ border-radius: 5px;
+ font-size: 15px;
+ height: 70%;
+ outline: none;
+}
+.button:hover {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    border: solid #ffffff 0.5px;
+    width: 100%;
+    border-radius: 5px;
+    height: 70%;
+    outline: none;
+}
+#c-btn1{
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+#c-btn1:hover{
+    color: black;
+    background-color: yellow;
+}
+#c-btn2{
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+#c-btn2:hover{
+    color: black;
+    background-color: yellow;
+}
